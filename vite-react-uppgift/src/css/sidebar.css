@@ -1,28 +1,34 @@
 .sidebar{
     display: flex;
+    justify-content: center;
     position: absolute;
     font-size: 18px;
-    left: 0;
-
-    background-color: gray;
+    background-color: var(--basfarg);;
     height: 100%;
-    width: 10%;
-    padding: 20px;
+    width: 12%;
+
 }
 
 .sidebar ul{
-
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    gap: 20px;
+    width: 100%;
+    gap: 15px;
     list-style-type: none;
+}
+
+.sidebar li{
+    border: white solid 1px;
+    padding: 10px;
+    margin: 3px;
 }
 
 
 .sidebar a{
+    padding: 10px;
     color: white;
     text-decoration: none;
+
 }
 
 .hamburger {
@@ -40,15 +46,16 @@
 
     .hamburger{
         display: block;
+        position: absolute;
+        top: 0;
     }
 
     .sidebar {
     display: none;
     position: absolute;
-    top: 50px;
     left: 0;
     color: black;
-    background-color: gray;
+    background-color: var(--basfarg);
     width: 20%;
     z-index: 1000;
 

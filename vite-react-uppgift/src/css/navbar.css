@@ -4,13 +4,12 @@
 }
 
 .navbar{
-
     display: flex;
     flex-direction: row;
     justify-content: right;
-    position: fixed;
-    top: 0;
-    background-color: grey;
+    align-items: flex-start;
+
+    background-color: var(--basfarg);
     width: 100%; 
     padding: 20px;
  
@@ -26,10 +25,4 @@
 .navbar a{
     color: white;
     text-decoration: none;
-}
-
-@media (max-width: 768px){
- 
-    
-
 }

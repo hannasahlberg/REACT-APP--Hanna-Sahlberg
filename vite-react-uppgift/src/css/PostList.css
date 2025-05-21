@@ -1,0 +1,15 @@
+.postlist-container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 50%;
+    gap: 30px;
+
+}
+
+@media (max-width: 768px){
+    .postlist-container{
+        width: 50%;
+    }
+
+}
