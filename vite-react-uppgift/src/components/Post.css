@@ -1,7 +1,9 @@
 .post-container{
     padding: 30px;
-    border: solid black 1px;
+    background-color: white;
+    border-radius: 10px;
     display: flex;
+    height: 150px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
