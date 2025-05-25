@@ -53,12 +53,7 @@
 
     .sidebar {
     display: none;
-    position: absolute;
-    left: 0;
-    color: black;
-    background-color: var(--basfarg);
-    width: 20%;
-    z-index: 1000;
+    width: 30%;
 
     }
 

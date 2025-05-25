@@ -4,7 +4,15 @@
     border-radius: 10px;
     display: flex;
     height: 150px;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+@media (max-width: 768px){
+    .post-container{
+        width: 70%;
+    }
 }
